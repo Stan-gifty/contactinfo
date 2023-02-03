@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    color: darkblue;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#form {
+    background: lightgoldenrodyellow;
+    padding: 30px;
+    border: 5px solid lightgray;
+    border-radius: 5px;
+}
+#form h3 p {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1em;
+    margin-bottom: 15px;
+}
+input{
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid gray;
+    border-radius: 5px;
+    background: lightgrey;
+}
+select {
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid gray;
+    border-radius: 5px;
+    background: lightgrey;
+}
+button {
+    color: darkblue;
+    margin-top: 5px;
+    text-align: center;
+    justify-content: center;
+    padding: 5px 10px;
+    background: lightgray;
+    border: 3px solid gray;
+    border-radius: 5px;
+    font-size: 17px;
+}
+button:hover {
+    background: blue;
+    color: white;
+}
